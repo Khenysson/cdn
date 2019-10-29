@@ -17,56 +17,23 @@ img {
   height: auto;
 }
 
-h1, h2, h3, h4, h5, em {
-  color: #FFF;
-  text-transform: uppercase;
-}
-
-h1, h2, em strong {
-  font: 900 117px/117px "Raleway", sans-serif;
-}
-
-h1 {
-  letter-spacing: -8px;
-}
-
-h2, em strong {
-  letter-spacing: -4.68px;
-  word-spacing: -4px;
-}
-
 em {
   display: block;
 }
 
-h3, em {
-  font: 300 97px/97px "Raleway", sans-serif;
-  letter-spacing: -5.82px;
-  word-spacing: -7px;
-}
 /*
-h4 {
-  font: 900 87px/87px "Raleway", sans-serif;
-  letter-spacing: -3.48px;
-  word-spacing: 11px;
-}
-*/
-
 h5 {
   font: 900 57px/67px "Raleway", sans-serif;
   letter-spacing: -2.28px;
   color: #777;
   opacity: 0.56;
-}
+}*/
+
 .lt-ie9 h5 {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.56)";
   filter: alpha(opacity=56.0);
 }
 
-h6 {
-  font: 600 24px/35px "Raleway", sans-serif;
-  color: #fff;
-}
 
 p a:hover, .marked-list a:hover, .list a:hover {
   text-decoration: underline;
@@ -140,13 +107,6 @@ a[href^="tel:"],
 a[href^="callto:"] {
   color: inherit;
   text-decoration: none;
-}
-
-h6 a:hover {
-  color: #b7b3b3;
-}
-h6 a:active {
-  color: #9e9999;
 }
 
 strong {
